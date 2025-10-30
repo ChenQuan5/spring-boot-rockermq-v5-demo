@@ -10,7 +10,7 @@ RocketMQ是一个C/S**(Client/Server)**或者B/S**(Browser /Server)**架构,我�
 
 #### 客户端
 
-##### Producer（消息生产者
+##### Producer（消息生产者）
 
 启动时连接NameServer获取Proxy信息，连接Proxy，，使用SDK或THHP/gRPC发送消息，Proxy根据Topic（主题）查找对应的Broker，通过内部协议将消息写入Broker，Proxy把ACK（Acknowledgment）的结果返回给Producer
 
