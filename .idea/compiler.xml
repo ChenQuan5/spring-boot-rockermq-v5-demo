@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-rocket-v5-push-consumer" />
+        <module name="spring-boot-rocket-v5-simple-consumer" />
+        <module name="official-rocketmq-v5-demo" />
+        <module name="spring-boot-rocket-v5-producer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="official-Rocketmq-v5-demo" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="official-Rocketmq-v5-demo" options="-parameters" />
+      <module name="official-rocketmq-v5-demo" options="-parameters" />
+      <module name="spring-boot-rocket-v5-producer" options="-parameters" />
+      <module name="spring-boot-rocket-v5-push-consumer" options="-parameters" />
+      <module name="spring-boot-rocket-v5-simple-consumer" options="-parameters" />
+      <module name="spring-boot-rocketmq-v5-demo" options="" />
+    </option>
+  </component>
+</project>

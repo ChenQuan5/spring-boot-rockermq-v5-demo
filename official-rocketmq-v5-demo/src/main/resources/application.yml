@@ -1,0 +1,7 @@
+server:
+  port: 8088
+  # 消息生产者配置
+rocketmq:
+  producer:
+    endpoints: 127.0.0.1:8081 # 在RocketMQ5中,指向Broker端口或者Proxy端口
+    tlsEnable: false

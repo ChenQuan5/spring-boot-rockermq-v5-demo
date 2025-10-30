@@ -1,0 +1,9 @@
+server:
+  port: 1003
+rocketmq:
+  simple-consumer:
+    endpoints: 127.0.0.1:8081
+    consumer-group: demo-trans-group
+    topic: spring-boot-trans-topic
+    tag: '*'
+    request-timeout: 300
